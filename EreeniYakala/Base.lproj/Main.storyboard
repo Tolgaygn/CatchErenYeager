@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EreeniYakala" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="cWZ-J3-kS1">
+                                <rect key="frame" x="29" y="223" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="2XC-fY-TrA"/>
+                                    <constraint firstAttribute="height" constant="118" id="Mm1-Yj-MKD"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="8g7-Vz-tUl">
+                                <rect key="frame" x="158" y="223" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="Cxg-O3-mDz"/>
+                                    <constraint firstAttribute="height" constant="118" id="tia-hZ-Ch6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="7iL-cE-ZPs">
+                                <rect key="frame" x="287" y="223" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="plv-Jc-ul6"/>
+                                    <constraint firstAttribute="width" constant="98" id="tcY-ge-grm"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="736-9o-Wju">
+                                <rect key="frame" x="29" y="351" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="KBl-eL-RgP"/>
+                                    <constraint firstAttribute="width" constant="98" id="gaU-GX-MAI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="5ci-Ib-jiE">
+                                <rect key="frame" x="158" y="351" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="Bgm-ai-PCF"/>
+                                    <constraint firstAttribute="height" constant="118" id="uxj-W9-b9W"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="y0m-FZ-CFL">
+                                <rect key="frame" x="287" y="351" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="QXS-ZP-QEU"/>
+                                    <constraint firstAttribute="width" constant="98" id="eO2-OI-IBW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="jgO-6G-nKJ">
+                                <rect key="frame" x="29" y="479" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="vk8-sF-USL"/>
+                                    <constraint firstAttribute="height" constant="118" id="z66-hd-eCN"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-RZ-Cyb">
+                                <rect key="frame" x="158" y="479" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="8Ox-8b-SFk"/>
+                                    <constraint firstAttribute="height" constant="118" id="oSu-g4-w5W"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNQ-kL-J2V">
+                                <rect key="frame" x="185.5" y="54" width="43" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skor: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38J-6h-tKV">
+                                <rect key="frame" x="177" y="122" width="60" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ereen" translatesAutoresizingMaskIntoConstraints="NO" id="OEN-W7-iSM">
+                                <rect key="frame" x="287" y="479" width="98" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="gNd-SR-Vc5"/>
+                                    <constraint firstAttribute="width" constant="98" id="zAL-4w-C5f"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En Yüksek Skorun: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svT-Rx-48i">
+                                <rect key="frame" x="106" y="644" width="202" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jgO-6G-nKJ" firstAttribute="top" secondItem="736-9o-Wju" secondAttribute="bottom" constant="10" id="0cV-7M-WdU"/>
+                            <constraint firstItem="38J-6h-tKV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="35m-Qc-qlR"/>
+                            <constraint firstItem="jgO-6G-nKJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="3t4-5p-7tD"/>
+                            <constraint firstItem="38J-6h-tKV" firstAttribute="top" secondItem="CNQ-kL-J2V" secondAttribute="bottom" constant="20" id="44v-hv-hTO"/>
+                            <constraint firstItem="5ci-Ib-jiE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ayh-N3-dao"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7iL-cE-ZPs" secondAttribute="trailing" constant="29" id="BA7-1n-8Sb"/>
+                            <constraint firstItem="8g7-Vz-tUl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E2h-JG-eYG"/>
+                            <constraint firstItem="736-9o-Wju" firstAttribute="top" secondItem="cWZ-J3-kS1" secondAttribute="bottom" constant="10" id="EoP-AW-OEX"/>
+                            <constraint firstItem="y0m-FZ-CFL" firstAttribute="top" secondItem="7iL-cE-ZPs" secondAttribute="bottom" constant="10" id="H3k-Zo-Cea"/>
+                            <constraint firstItem="svT-Rx-48i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H45-Jr-4ye"/>
+                            <constraint firstItem="736-9o-Wju" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="H7P-w4-j9j"/>
+                            <constraint firstItem="svT-Rx-48i" firstAttribute="top" secondItem="jgO-6G-nKJ" secondAttribute="bottom" constant="47" id="KTn-OX-zuy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OEN-W7-iSM" secondAttribute="trailing" constant="29" id="LSb-Hj-cVo"/>
+                            <constraint firstItem="iwY-RZ-Cyb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SIF-2E-Heo"/>
+                            <constraint firstItem="8g7-Vz-tUl" firstAttribute="top" secondItem="38J-6h-tKV" secondAttribute="bottom" constant="78" id="WN5-7p-GN0"/>
+                            <constraint firstItem="CNQ-kL-J2V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="chv-Ud-7jW"/>
+                            <constraint firstItem="cWZ-J3-kS1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="29" id="f0Z-no-mXE"/>
+                            <constraint firstItem="CNQ-kL-J2V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="fAJ-5z-oq5"/>
+                            <constraint firstItem="iwY-RZ-Cyb" firstAttribute="top" secondItem="5ci-Ib-jiE" secondAttribute="bottom" constant="10" id="hb8-Qr-o9h"/>
+                            <constraint firstItem="OEN-W7-iSM" firstAttribute="top" secondItem="y0m-FZ-CFL" secondAttribute="bottom" constant="10" id="rB5-gM-UOt"/>
+                            <constraint firstItem="cWZ-J3-kS1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="179" id="rHh-yC-uQj"/>
+                            <constraint firstItem="7iL-cE-ZPs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="179" id="sgj-ib-Ul8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="y0m-FZ-CFL" secondAttribute="trailing" constant="29" id="xah-Ji-tnA"/>
+                            <constraint firstItem="5ci-Ib-jiE" firstAttribute="top" secondItem="8g7-Vz-tUl" secondAttribute="bottom" constant="10" id="zt3-ro-s2d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="eren1" destination="cWZ-J3-kS1" id="zfv-ET-qrC"/>
+                        <outlet property="eren2" destination="8g7-Vz-tUl" id="Fho-48-T3h"/>
+                        <outlet property="eren3" destination="7iL-cE-ZPs" id="udb-XN-q7I"/>
+                        <outlet property="eren4" destination="736-9o-Wju" id="pPE-Ld-lZa"/>
+                        <outlet property="eren5" destination="5ci-Ib-jiE" id="fi7-f5-Kqz"/>
+                        <outlet property="eren6" destination="y0m-FZ-CFL" id="HGT-Fl-cr3"/>
+                        <outlet property="eren7" destination="jgO-6G-nKJ" id="JXL-gW-551"/>
+                        <outlet property="eren8" destination="iwY-RZ-Cyb" id="G7b-0a-5dv"/>
+                        <outlet property="eren9" destination="OEN-W7-iSM" id="iHi-vg-nu3"/>
+                        <outlet property="skorLabel" destination="38J-6h-tKV" id="V9v-pU-Sx3"/>
+                        <outlet property="sureLabel" destination="CNQ-kL-J2V" id="Jpc-XC-U5V"/>
+                        <outlet property="yuksekSkorLabel" destination="svT-Rx-48i" id="mcj-yj-QqP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ereen" width="256" height="256"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
